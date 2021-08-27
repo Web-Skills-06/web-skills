@@ -5,8 +5,8 @@
 html {
 	--base-size: 16;
 
-	--background: rgb(11, 11, 25);
-	--foreground: rgb(232, 232, 234);
+	--background: rgb(232, 232, 234);
+	--foreground: rgb(182, 182, 185);
 
 	--background-opaque: rgba(11, 11, 25, 0.9);
 
