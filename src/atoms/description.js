@@ -45,7 +45,7 @@ export class Description extends LitElement {
 			css`
 				:host {
 					background: var(--background);
-					color: var(--foreground);
+					color: black;
 					padding: var(--spacing-l);
 					border-radius: var(--border-radius-s);
 					text-align: left;
