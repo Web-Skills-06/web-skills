@@ -33,7 +33,7 @@ export class Collection extends LitElement {
 					padding: var(--spacing-xxxl);
 					border-radius: var(--border-radius-l);
 					background: var(--foreground);
-					color: var(--background);
+					color: black;
 				}
 
 				#title {
