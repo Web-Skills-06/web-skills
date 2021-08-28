@@ -45,15 +45,16 @@ __type__
 [type] Subject
 ```
 
-- type : 어떤 종류의 issue인지를 명시한다. commit message convention에서의 type과 동일하게 두었다. 이는 commit message를 작성할 때와 issue naming을 할 때 혼동을 최대한으로 줄이기 위해서이다. 아래에 구체적인 type의 종류가 나와있으니 참고하여 작성한다. 이는 반드시 [] 내에 적도록 한다.
+- type : 어떤 종류의 issue인지를 명시한다. commit message convention에서의 type과 비슷하다. 이는 commit message를 작성할 때와 issue naming을 할 때 혼동을 최대한으로 줄이기 위해서이다. 하지만 issue 만의 특성을 고려하여 개선하였다. 아래에 구체적인 type의 종류가 나와있으니 참고하여 작성한다. 이는 반드시 [] 내에 적도록 한다.
 - Subject : 해당 issue에서 수정할 사항을 간략하게 명시한다. 글자수는 50글자가 넘어가지 않도록 하며, 한글 또는 영어로 작성한다.
 
 _type__
 - feat : 새로운 기능을 추가할 경우, 웹페이지에 새로운 내용을 추가할 경우
+- composition : 웹페이지 화면의 구성을 변경할 경우(레이아웃, 배경 색 등)
 - fix : 버그를 고치는 것이 목적인 경우
 - docs : 문서화 진행중인 문서를 수정하거나 추가할 경우
-- style : 코드 포맷 변경, 세미 콜론 누락 등 자잘한 코드를 수정하고자 경우
-- refactor : 새로운 기능이나 버그 수정없이 현재 구현을 개선하고자 할 경우
+- offer : 프로젝트 관련하여 어떠한 사항을 제안하고 싶을 경우
+- refactor : 코드 포맷 변경, 세미 콜론 누락 등 자잘한 코드를 수정, 새로운 기능이나 버그 수정없이 현재 구현을 개선하고자 할 경우
 - test : 테스트 추가, 테스트 리팩토링(프로덕션 코드 변경X)을 할 목적인 경우
 
 ## Caution
@@ -63,4 +64,6 @@ _type__
 
 > issue naming에서의 type은 단순히 issue를 생성할 때 코드에서 수정하고자하는 부분의 목적을 명시하는 데 그 역할이 있다. 만약 feat type의 issue를 생성하였다면, 이 issue에 따르는 commit 가운데 feat type이 아닌 commit이 존재할 수 있다. 웹사이트에 새로운 내용을 추가하려고 feat type으로 issue를 생성한 뒤 코드를 수정하다가 오류가 발견되어 fix type의 commit을 해당 issue에 추가하여도 된다는 것이다. issue의 type과 commit의 type은 아무런 상관이 없다. 이를 헷갈리지 말아야 한다.
 
-> issue의 특성상 style이나 refactor과 같은 type은 잘 사용될 일이 없을 수도 있다. 하지만 만약을 대비하여 모든 경우에 type 종류를 정해놓았다.
+> commit과 달리 issue는 제안(offer)하는 경우가 있으므로, offer type을 추가하였고, 웹페이지에 내용을 추가하는 issue와 화면 구성을 변경하는 issue가 구분되어 있는 것을 고려하여, feat type 외에 composition type을 추가하였다.
+
+> issue의 특성상 commit에서의 style이나 refactor과 같은 type은 잘 사용될 일이 없을 수도 있다. 하지만 만약을 대비하여 모든 경우에 type 종류를 정해놓기 위해 이 두가지를 합쳐 refactor type을 정해놓았다.
