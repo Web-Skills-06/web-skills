@@ -1,73 +1,91 @@
 export const fundamentalsCollection = {
-	name: "Foundation",
+	name: "Fundamentals",
 	areas: [
 		{
-			name: "Github Tutorial",
+			name: "HTML",
 			skills: [
 				{
-					name: "Sign Up",
+					name: "Syntax",
 					description: {
-						text: "github에 접속해 'sign up'버튼 클릭한다.",
+						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
 						links: [
-							["Github", "https://github.com"],
+							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
+							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
+							["Codecademy - Learn HTML", "https://www.codecademy.com/learn/learn-html"],
 						]
 					},
 					skills: [
 						{
-							name: "Sign In",
+							name: "Basic Tags",
 							description: {
-								text: "sign up을 완료한 후, 이메일 인증을 완료하면 로그인이 가능하다.",
+								text: "Get familiar with the basic HTML tags",
 								links: [
-									["Github", "https://github.com"],
+									["MDN - HTML elements reference", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"],
+									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
+									["Elated - First 10 HTML tags", "https://www.elated.com/first-10-html-tags/"],
+									["W3Schools - HTML tags", "https://www.w3schools.com/tags/ref_byfunc.asp"]
 								]
 							},
 						},
 					]
 				},
 				{
-					name: "Git Install",
+					name: "Forms",
 					description: {
-						text: "github를 사용하기 위해서는 깃을 설치해야한다. 이미 설치했으면 최신 버전으로 업데이트하는 게 좋다.",
+						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
 						links: [
-							["Git", "https://git-scm.com"]
+							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
+							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
+							["W3Schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
 						]
 					}
 				},
 				{
-					name: "Git Config",
+					name: "SEO",
 					description: {
-						text: "git을 설치한 후에는 깃의 사용 환경을 적절하게 설정해 주어야 한다. 환경 설정은 한 컴퓨터에서 한 번만 하면 된다. 설정한 내용은 git을 업그레이드해도 유지된다. 'git config'라는 명령어를 사용한다. ",
+						text: "Learn how to make your content search-friendly.",
 						links: [
-							["Google Search - Git config", "https://www.lainyzine.com/ko/article/how-to-set-git-repository-username-and-email"],
-							["Google Search - Git config", "https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%B5%9C%EC%B4%88-%EC%84%A4%EC%A0%95"],
+							["web.dev - Discoverable", "https://web.dev/discoverable"],
+							["Google Search - Get Started", "https://developers.google.com/search/docs/guides/get-started"],
+							["Google Search - SEO basics", "https://developers.google.com/search/docs/guides/javascript-seo-basics"],
+							["web.dev - SEO audits", "https://web.dev/lighthouse-seo"]
 						]
 					},
-				},
-
-				{
-					name: "Create Repository",
-					description: {
-						text: "git 설치와 git config가 끝났으면 repository생성을 하도록 하자. repository는 깃허브 사이트에 저장소를 만드는 것이고, 우리의 파일을 업로드 할 수 있다.",
-						links: [
-							["Github", "https://github.com"],
-							["Google Search - Create Repository", "https://velog.io/@kho5420/Git-GitHub-%EB%A0%88%ED%8C%8C%EC%A7%80%ED%86%A0%EB%A6%ACRepository-%EC%83%9D%EC%84%B1%ED%95%98%EA%B3%A0-%EC%86%8C%EC%8A%A4-%EC%98%AC%EB%A6%AC%EA%B8%B0:"]
-						]
-					},
-					
-				
 					skills: [
 						{
-							name: "Initializing a repository",
+							name: "Discoverable Content",
 							description: {
-								text : "repository를 생성한 후 git으로 프로젝트 관리를 시작할때는 다음 명령어를 입력한다. 'git init'   이 명령어를 실행하면 해당 프로젝트 폴더 내에 숨겨진 .git폴더를 생성하고 이제 git은 현재 repositoy에 대한 모든 변경사항들을 추적 및 관리하게 된다.",
+								text: "Learn how to structure your HTML in a way that provides a rich experience when sharing it online.",
 								links: [
-									["Github", "https://github.com"],
-									["Google Search - Create Repository", "https://velog.io/@kho5420/Git-GitHub-%EB%A0%88%ED%8C%8C%EC%A7%80%ED%86%A0%EB%A6%ACRepository-%EC%83%9D%EC%84%B1%ED%95%98%EA%B3%A0-%EC%86%8C%EC%8A%A4-%EC%98%AC%EB%A6%AC%EA%B8%B0:"]
+									["Google Web - Social Discovery", "https://developers.google.com/web/fundamentals/discovery/social-discovery"],
+									["Google Search - Search Features", "https://developers.google.com/search/docs/guides/search-features"],
+									["Google Search - Structured Data", "https://developers.google.com/search/docs/guides/intro-structured-data"],
+									["web.dev - Easily discoverable", "https://web.dev/discoverable"]
 								]
 							}
 						}
 					]
 				},
+				{
+					name: "Svg",
+					description: {
+						text: "Learn how to work with SVG files to make graphics look crisp across all screen resolutions.",
+						links: [
+							["MDN - Adding vector graphics to the Web", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"],
+							["SVG on the web", "https://svgontheweb.com/"],
+						]
+					}
+				},
+				{
+					name: "Best Practices",
+					description: {
+						text: "Learn the best practices of writing HTML.",
+						links: [
+							["MDN - HTML guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML"],
+							["W3Schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
+						]
+					}
+				}
 			]
 		},
 		{
