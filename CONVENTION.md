@@ -29,3 +29,38 @@ __type__
 > 현재 진행중인 프로젝트는 오픈소스 소프트웨어를 활용하여 git을 활용하는 데 중점을 두고 있다. 따라서 실제로 어떠한 기능이 추가되거나 하는 경우는 거의 없다. 따라서 웹페이지에 나타날 텍스트를 변경하거나 내용을 추가하는 등의 commit이 주로 일어날텐데, 이러한 commit에 feat type을 사용하여 작성한다.
 
 > 제목에서 type과 : 사이에 빈칸을 두지 않는다. : 과 Subject 사이에만 빈칸을 둔다.
+
+
+# Issue Naming Convention
+
+## Introduction
+프로젝트를 진행할 때 어떠한 새로운 수정사항이 생기면 issue를 만들고 시작한다. 따라서 issue는 해당 수정사항을 나타내는 지표가 된다. 만약 fundamentals.js 라는 파일을 수정하고자 한다면, 이전에는 `[Javascript] fundamentals.js 수정` 과 같이 issue naming을 진행하였다. javascript 파일을 수정하기 때문에 [] 내에 Javascript를 작성한 것이다. 하지만 여기서 문제가 발생하였다.   
+
+웹페이지의 fundamentals을 소개하는 부분을 github-tutoial을 소개하는 부분으로 수정하고 싶어서, 위에서와 같이 issue를 생성하였다고 가정하자. 실제로 프로젝트를 진행할 때에는 src/data 폴더에 github-tutoial.js라는 파일을 생성한 뒤, 해당 파일에 github-tutoial과 관련된 설명과 link를 첨부한다. 또한 관련된 icon을 변경하고 싶다면, assets라는 폴더에 github-tutoial 폴더를 생성한 뒤 icon 사진을 저장해야 한다. 또한 웹페이지에 수정한 내용을 실제로 반영하려면 src폴더에 data.js 파일에서 변경사항을 import 해주는 설정을 해야한다. issue 이름과는 달리 정작 실제 코드 수정에는 fundamentals.js 파일을 전혀 수정하지 않고 있다. 해당 오픈소스 소프트웨어의 특성상, 제목이 fundamentals이라면, 내용을 적을 javascript 파일도 fundamentals.js 라는 이름이어야 하고, 관련된 아이콘을 저장할 때에도 assets 폴더에 fundamentals이라는 폴더가 존재해야 하기 때문에 발생하는 문제이다. 따라서 우리 팀은 issue 이름을 convention으로 정해놓아야할 필요성을 느끼게 되었다. 이에 따라 혼동을 최대한으로 줄이기 위해서 Udacity convention을 활용하여 만든 commit message convention과 유사한 형태로 만들었다.
+
+## Name Structure
+이름의 구조는 commit message의 제목 부분과 유사하다. type이 [] 내에 위치해있고, 그 뒤로 subject를 작성한다.
+
+```
+[type] Subject
+```
+
+- type : 어떤 종류의 issue인지를 명시한다. commit message convention에서의 type과 동일하게 두었다. 이는 commit message를 작성할 때와 issue naming을 할 때 혼동을 최대한으로 줄이기 위해서이다. 아래에 구체적인 type의 종류가 나와있으니 참고하여 작성한다. 이는 반드시 [] 내에 적도록 한다.
+- Subject : 해당 issue에서 수정할 사항을 간략하게 명시한다. 글자수는 50글자가 넘어가지 않도록 하며, 한글 또는 영어로 작성한다.
+
+_type__
+- feat : 새로운 기능을 추가할 경우, 웹페이지에 새로운 내용을 추가할 경우
+- fix : 버그를 고치는 것이 목적인 경우
+- docs : 문서화 진행중인 문서를 수정하거나 추가할 경우
+- style : 코드 포맷 변경, 세미 콜론 누락 등 자잘한 코드를 수정하고자 경우
+- refactor : 새로운 기능이나 버그 수정없이 현재 구현을 개선하고자 할 경우
+- test : 테스트 추가, 테스트 리팩토링(프로덕션 코드 변경X)을 할 목적인 경우
+
+## Caution
+> issue name에는 수정사항을 간략하게 적지만, 실제 issue 내용을 적는 부분에서는 구체적으로 작성한다. 예컨대 다음과 같은 내용이 들어가야 한다.
+- 어떠한 이유로 해당 issue를 생성하였는지
+- 해당 issue에서는 어떤 내용을 수정할 것인지
+
+> issue naming에서의 type은 단순히 issue를 생성할 때 코드에서 수정하고자하는 부분의 목적을 명시하는 데 그 역할이 있다. 만약 feat type의 issue를 생성하였다면, 이 issue에 따르는 commit 가운데 feat type이 아닌 commit이 존재할 수 있다. 웹사이트에 새로운 내용을 추가하려고 feat type으로 issue를 생성한 뒤 코드를 수정하다가 오류가 발견되어 fix type의 commit을 해당 issue에 추가하여도 된다는 것이다. issue의 type과 commit의 type은 아무런 상관이 없다. 이를 헷갈리지 말아야 한다.
+
+> issue의 특성상 style이나 refactor과 같은 type은 잘 사용될 일이 없을 수도 있다. 하지만 만약을 대비하여 모든 경우에 type 종류를 정해놓았다.
