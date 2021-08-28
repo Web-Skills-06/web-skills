@@ -157,7 +157,7 @@ export class App extends LitElement {
 				:host(:not([compact])) #header {
 					position: fixed;
 					top: 0;
-					z-index: 1234567;
+					z-index: 12345678;
 					width: 100%;
 					background: var(--background-opaque);
 				}
