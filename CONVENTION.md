@@ -2,7 +2,7 @@
 
 ## Introduction
 - - -
-github를 통해 협업을 진행하면서 원활한 소통을 위해 Commit Message를 작성하는 규칙을 정하였다. 우리 팀만의 독자적인 규칙을 정하는 방법도 있으나, 기존의 규칙을 우리의 상황에 맞게 수정하여 사용하는 방법을 택하였다. 우리 팀은 [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/, "udacity link")를 참고하여 약간의 수정을 통해 규칙을 정하였다.
+github를 통해 협업을 진행하면서 원활한 소통을 위해 Commit Message를 작성하는 규칙을 정하였다. 우리 팀만의 독자적인 규칙을 정하는 방법도 있으나, 기존의 규칙을 우리의 상황에 맞게 수정하여 사용하는 방법을 택하였다. 우리 팀은 [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)를 참고하여 약간의 수정을 통해 규칙을 정하였다.
 
 ## Message Structure
 - - -
