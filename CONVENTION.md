@@ -18,7 +18,7 @@ body -> 본문
 - body : commit의 추가적인 설명이다. subject에서 간략하게 적었던 내용을 길게 풀어서 작성한다. 이는 한글로 작성하는 것을 원칙으로 한다. subject로 충분한 의사소통이 가능하다 판단하면 생략할 수 있다. 한 줄 당 72자 내로 작성하며, 최대한 상세히 작성한다. 본문 내용은 어떻게 변경했는지 보다 무엇을 변경했는지 또는 왜 변경했는지를 설명한다.
 
 __type__
-- feat : 새로운 기능을 추가한 경우
+- feat : 새로운 기능을 추가한 경우, 웹페이지에 새로운 내용 또는 구성을 추가할 경우
 - fix : 버그를 고친 경우
 - docs : 문서를 수정하거나 추가한 경우
 - style : 코드 포맷 변경, 세미 콜론 누락 등 자잘한 코드 수정
@@ -26,9 +26,32 @@ __type__
 - test : 테스트 추가, 테스트 리팩토링(프로덕션 코드 변경X)
 
 ## Caution
-> 현재 진행중인 프로젝트는 오픈소스 소프트웨어를 활용하여 git을 활용하는 데 중점을 두고 있다. 따라서 실제로 어떠한 기능이 추가되거나 하는 경우는 거의 없다. 따라서 웹페이지에 나타날 텍스트를 변경하거나 내용을 추가하는 등의 commit이 주로 일어날텐데, 이러한 commit에 feat type을 사용하여 작성한다.
+> 현재 진행중인 프로젝트는 오픈소스 소프트웨어를 활용하여 git을 활용하는 데 중점을 두고 있다. 따라서 실제로 어떠한 기능이 추가되거나 하는 경우는 거의 없다. 따라서 웹페이지에 나타날 텍스트를 변경하거나 내용을 추가하는 등의 commit이 주로 일어날텐데, 이러한 commit에 feat type을 사용하여 작성한다. 만약 화면 구성을 변경하는 등의 commit이 있을 경우에도 feat type을 사용한다.
 
 > 제목에서 type과 : 사이에 빈칸을 두지 않는다. : 과 Subject 사이에만 빈칸을 둔다.
+
+## Example
+1. foundation part에 github-tutorial 내용을 추가한 경우   
+```
+feat: Add github-tutorial content(#3)
+
+foundation.js 파일 생성 후 github-tutorial 추가
+설명과 관련된 link 모두 삽입 완료
+```
+2. 코드의 모양이 맘에 들지 않아서 포맷을 변경한 경우
+```
+style: Change code format(#4)
+
+코드의 들여쓰기가 각기 다른 방식으로 되어있어서 통일함.
+``` 
+3. 내용이 추가된 것은 없지만, 파일간 연결되도록 설정한 경우
+```
+refactor: fundamentalSCollection import change(#7)
+fundamentalsCollection이 src/data/fundamentals.js를 import했는데
+foundation.js를 새로 만들어서 src/data/foundation.js를 import하도록 변경함
+```
+
+> 이는 단지 예시일 뿐, subject와 body 부분은 자율적으로 작성한다.
 
 
 # Issue Naming Convention
