@@ -1,5 +1,5 @@
 import {fundamentalsCollection} from "./data/foundation.js";
-import {webcomponentsCollection} from "./data/web-components.js";
+import {webcomponentsCollection} from "./data/branches.js";
 import {accessibilityCollection} from "./data/accessibility.js";
 import {pwaCollection} from "./data/pwa.js";
 import {architectureCollection} from "./data/architecture-and-paradigmes.js";
