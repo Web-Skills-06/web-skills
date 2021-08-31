@@ -7,7 +7,7 @@ export const webcomponentsCollection = {
 				{
 					name: "What is branch",
 					description: {
-						text: "Branch는 가지라는 뜻으로, commit들이 나뭇가지처럼 뻗어나간다는 의미이다. 나뭇가지처럼 뻗어나간 branch를 전환해가면서, commit 사이를 가볍게 이동할 수 있는 어떠한 포인터 기능을 한다. 기본적으로 git은 master 브랜치를 만든다. 최근에는 main으로 이름이 바뀌었다.",
+						text: "Branch는 가지라는 뜻으로, commit들이 나뭇가지처럼 뻗어나간다는 의미이다. 나뭇가지처럼 뻗어나간 branch 사이를 전환해가면서, commit 사이를 가볍게 이동할 수 있는 어떠한 포인터 기능을 한다. 기본적으로 git은 master 브랜치를 만든다. 최근에는 main으로 이름이 바뀌었다.",
 						links: [
 							["Wikipedia - Branch", "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%A7%80_(%EC%8B%9D%EB%AC%BC%ED%95%99)"],
 							["Git 공식문서 - What is Branch", "https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80"],
@@ -44,7 +44,7 @@ export const webcomponentsCollection = {
 						{
 							name: "Checkout",
 							description: {
-								text: "Git checkout은 브랜치를 전환하거나, 이전 commit으로 이동함으로써 작업중인 파일을 복구하는 기능을 모두 가지고 있다. -b 옵션을 주면 브랜치를 생성함과 동시에 이동할 수 있기도 하다. 이 때문에 혼란이 계속되어 checkout 기능을 Switch와 Restore로 각각 분리하여 명령어를 2개 생성하였다.",
+								text: "Git checkout은 브랜치를 전환하거나, 이전 commit으로 이동함으로써 작업중인 파일을 복구하는 기능을 모두 가지고 있다. -b 옵션을 주면 브랜치를 생성함과 동시에 이동할 수 있기도 하다. 이 때문에 혼란이 계속되어 git은 checkout 기능을 Switch와 Restore로 각각 분리하여 명령어를 2개 생성하였다.",
 								links: [
 									["Git 공식문서 - Git checkout", "https://git-scm.com/docs/git-checkout"],
 									["Bitbucket 공식문서 - Git checkout", "https://www.atlassian.com/git/tutorials/using-branches/git-checkout"],
@@ -85,7 +85,7 @@ export const webcomponentsCollection = {
 				{
 					name: "Stash",
 					description: {
-						text: "아직 현재 브랜치에서 작업이 끝나지 않은 경우는 다른 브랜치로 switch 할 수 없다. 그렇다고 아직 작업이 끝나지 않은 것을 commit할 수도 없는데, 이럴 때 사용하는 것이 stash이다. 임시 저장한 뒤 나중에 복원할 수 있는 명령어라고 이해하면 된다.",
+						text: "아직 현재 브랜치에서 작업이 끝나지 않은 경우는 다른 브랜치로 switch 할 수 없다. 그렇다고 아직 작업이 끝나지 않은 것을 commit할 수도 없는데, 이럴 때 사용하는 것이 stash이다. 수정사항을 임시 저장한 뒤 나중에 복원할 수 있는 명령어라고 이해하면 된다.",
 						links: [
 							["생활코딩 - stash", "https://opentutorials.org/course/2708/15332"],
 							["Git stash 명령어 사용하기", "https://gmlwjd9405.github.io/2018/05/18/git-stash.html"],
@@ -99,7 +99,7 @@ export const webcomponentsCollection = {
 				{
 					name: "Branch merger",
 					description: {
-						text: "브랜치를 병합하는 방법에는 Merge와 Rebase가 있다. 브랜치를 분기하여 사용하다가 모든 작업을 마치게 되면 master 브랜치 등으로 다시 병합되어야 한다. 병합되지 않으면 수정사항이 반영되지 않기 때문이다.",
+						text: "브랜치를 병합하는 방법에는 Merge와 Rebase가 있다. 브랜치는 분기하여 사용하다가 모든 작업을 마치게 되면 master 브랜치 등으로 다시 병합되어야 한다. 병합되지 않으면 수정사항이 반영되지 않기 때문이다.",
 						links: [
 							["Tistory - Merge와 Rebase의 차이점", "https://unordinarydays.tistory.com/161"],
 							["Merge vs Rebase", "https://brunch.co.kr/@anonymdevoo/7"],
@@ -182,7 +182,7 @@ export const webcomponentsCollection = {
 				{
 					name: "Git flow",
 					description: {
-						text: "브랜치 전략 중 하나로 거의 표준과 같이 사용되는 방법론이다. 총 5가지의 브랜치 종류를 사용하여 운영된다. master와 develop가 메인 브랜치이며, feature, release, fotfix는 필요에 따라 운영되는 브랜치이다.",
+						text: "브랜치 전략 중 하나로 거의 표준과 같이 사용되는 방법론이다. 총 5가지의 브랜치 종류를 사용하여 운영된다. master와 develop가 메인 브랜치이며, feature, release, hotfix는 필요에 따라 운영되는 브랜치이다.",
 						links: [
 							["우아한 형제들 - 우리는 Git-flow를 사용하고 있어요", "https://techblog.woowahan.com/2553/"],
 							["Tistory - Git Flow 개념 이해하기", "https://uxgjs.tistory.com/183"],
@@ -196,7 +196,7 @@ export const webcomponentsCollection = {
 						{
 							name: "Github flow",
 							description: {
-								text: "Git Flow를 GitHub에서 사용하기 편하게 변형사킨 방법론이다. 또한 자동화의 개념이 들어가 있어, 더 간편한 모델이다.",
+								text: "GitHub flow는 Git Flow를 GitHub에서 사용하기 편하게 변형시킨 방법론이다. 또한 자동화의 개념이 들어가 있어, 더 간편한 모델이다.",
 								links: [
 									["간단하고 민첩한 Github-flow", "https://hyeon9mak.github.io/git-branch-strategy/"],
 									["GitHub Guides - Understanding the GitHub flow", "https://guides.github.com/introduction/flow/"],
@@ -208,7 +208,7 @@ export const webcomponentsCollection = {
 								{
 									name: "Gitlab flow",
 									description: {
-										text: "Github Flow에서는 너무 편리하게 구성하다보니, 배포, 환경 구성, 릴리즈, 통합에 대한 이슈를 남겨둔 것이 많았다. 따라서 이를 보안하기 위해 GitLab에서 관련 내용을 추가적으로 덧붙여 구성한 방법론이 GitLab Flow이다.",
+										text: "Github Flow에서는 브랜치를 너무 편리하게 구성하다보니, 배포, 환경 구성, 릴리즈, 통합에 대한 이슈를 남겨둔 것이 많았다. 따라서 이를 보안하기 위해 GitLab에서 관련 내용을 추가적으로 덧붙여 구성한 방법론이 GitLab Flow이다.",
 										links: [
 											["Gitlab Docs - Introduction to GitLab Flow", "https://docs.gitlab.com/ee/topics/gitlab_flow.html"],
 											["Git flow가 가진 문제점과 솔류션 - GitLab flow", "https://insight.infograb.net/blog/2020/09/22/git-flow-problem-and-solution/"],
@@ -223,7 +223,7 @@ export const webcomponentsCollection = {
 				{
 					name: "Naming convention",
 					description: {
-						text: "새로운 작업을 시작할 때 항상 브랜치를 분기하고 시작하는 경우가 많다. 따라서 브랜치를 만드는 일이 비일비재하게 이루어지는데, 이름을 짓는 규칙이 없다면 혼란을 가져올 수 있다. 브랜치 이름을 정하는 규칙이 몇가지가 있다.",
+						text: "새로운 작업을 시작할 때는 항상 브랜치를 분기하고 시작하는 경우가 많다. 따라서 브랜치를 만드는 일이 비일비재하게 이루어지는데, 이름을 짓는 규칙이 없다면 혼란을 가져올 수 있다. 따라서 브랜치 이름을 정하는 규칙이 몇가지가 있다.",
 						links: [
 							["Git branch & Naming", "https://velog.io/@kim-jaemin420/Git-branch-naming"],
 							["Coding Sight - Git Branching Naming Convention: Best Practices", "https://codingsight.com/git-branching-naming-convention-best-practices/"],
@@ -234,7 +234,7 @@ export const webcomponentsCollection = {
 				{
 					name: "Branch protection",
 					description: {
-						text: "Master 브랜치는 실제로 배포가 이루어지며, 실제 사용자들이 사용하는 프로그램의 코드들이 저장되어 있다. 따라서 Master 브랜치에는 오류코드나 실수한 부분이 반영되면 안된다. 따라서 많은 회사들은 Master 브랜치를 protection 전략으로 보호를 한다.",
+						text: "Master 브랜치는 실제로 배포가 이루어지며, 실제 사용자들이 사용하는 프로그램의 코드들이 저장되어 있다. 따라서 Master 브랜치에는 오류코드나 실수한 부분이 반영되면 안 된다. 따라서 많은 회사들은 Master 브랜치를 protection 전략으로 보호한다.",
 						links: [
 							["Tistory - Git Branch Protection Rule", "https://2ndprince.tistory.com/49"],
 							["Spectral - How to set up Git branch protection rules", "https://spectralops.io/blog/how-to-set-up-git-branch-protection-rules/"],
