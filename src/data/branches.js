@@ -21,6 +21,7 @@ export const webcomponentsCollection = {
 						text: "Branch는 실제 배포에 사용되는 master 브랜치와 분리하여 또 다른 개발 라인을 만들 수 있다는 점에서 중요하다. 만약 새롭게 만든 브랜치에서 오류가 발생하더라도 실제 master 브랜치는 병합하기 전에는 전혀 영향을 받지 않는다.",
 						links: [
 							["Why branches are important in Git", "https://www.toolsqa.com/git/branch-in-git/"],
+							["유튜브 - 협업에서 왜 브랜치를 나눠서 사용해야 하는가", "https://www.youtube.com/watch?v=uoHxdOmGJDk"],
 						]
 					},
 				},
@@ -160,7 +161,7 @@ export const webcomponentsCollection = {
 						{
 							name: "Cherry-pick",
 							description: {
-								text: "Cherry-pick는 브랜치에서 모든 커밋이 아니라 내가 원하는 커밋만 가져올 수 있는 명령어이다.",
+								text: "Cherry-pick는 병합을 진행할 때, 병합될 브랜치에서 모든 커밋이 아니라 내가 원하는 커밋만 가져올 수 있는 명령어이다. 충돌이 발생하거나, 의도치 않은 수정사항이 생겼을 때 사용하면 유용하다.",
 								links: [
 									["git cherry-pick 사용법", "https://cselabnotes.com/kr/2021/03/31/56/"],
 									["협업하며 생기는 문제를 cherry-pick으로 해결하기", "https://medium.com/react-native-seoul/git-cherry-pick-%EC%82%AC%EC%9A%A9%EB%B2%95-fe1a3346bd27"],
