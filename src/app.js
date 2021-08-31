@@ -13,6 +13,7 @@ import {
 	andreasIconTemplate,
 	coffeeIconTemplate,
 	githubIconTemplate,
+	googleIconTemplate,
 	helpIconTemplate,
 	shareIconTemplate
 } from "./util/icons.js";
@@ -705,7 +706,7 @@ export class App extends LitElement {
 						<ws-compact-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></ws-compact-switch>
 					</div>
 					<ws-button aria-label="Open help" @click="${this.openHelp}" title="Open help">
-						<ws-icon .template="${helpIconTemplate}"></ws-icon>
+						<ws-icon .template="${googleIconTemplate}"></ws-icon>
 					</ws-button>
 					<ws-button aria-label="Share website" @click="${this.share}" title="Open share menu">
 						<ws-icon .template="${shareIconTemplate}"></ws-icon>
