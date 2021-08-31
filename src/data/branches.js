@@ -11,6 +11,7 @@ export const webcomponentsCollection = {
 						links: [
 							["Wikipedia - Branch", "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%A7%80_(%EC%8B%9D%EB%AC%BC%ED%95%99)"],
 							["Git 공식문서 - What is Branch", "https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80"],
+							['생활코딩 - Branch의 원리(심화)', "https://opentutorials.org/course/2708/15303"],
 						]
 					}
 				},
@@ -49,6 +50,7 @@ export const webcomponentsCollection = {
 									["코드잇 - Git checkout과 Git reset의 차이점", "https://blog.naver.com/codeitofficial/222011693376"],
 									["수정사항을 되돌리는 checkout, reset, revert의 차이점", "https://postlude.github.io/2019/03/21/git-checkout-reset-revert/"],
 									["Checkout 기능 분리(Switch, Restore)", "http://honeymon.io/tech/2019/08/30/git-2.23-release.html"],
+									["생활코딩 - reset과 checkout의 원리(심화)", "https://opentutorials.org/course/2708/15304"],
 								]
 							},
 							skills: [
@@ -80,12 +82,28 @@ export const webcomponentsCollection = {
 					],
 				},
 				{
+					name: "Stash",
+					description: {
+						text: "아직 현재 브랜치에서 작업이 끝나지 않은 경우는 다른 브랜치로 switch 할 수 없다. 그렇다고 아직 작업이 끝나지 않은 것을 commit할 수도 없는데, 이럴 때 사용하는 것이 stash이다. 임시 저장한 뒤 나중에 복원할 수 있는 명령어라고 이해하면 된다.",
+						links: [
+							["생활코딩 - stash", "https://opentutorials.org/course/2708/15332"],
+							["Git stash 명령어 사용하기", "https://gmlwjd9405.github.io/2018/05/18/git-stash.html"],
+							["Git 공식문서 - Stashing과 Cleaning", "https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Stashing%EA%B3%BC-Cleaning"],
+							["Bitbuket 공식문서 - Git stash", "https://www.atlassian.com/git/tutorials/saving-changes/git-stash"],
+							["Git stash 사용법: 커밋하지 않고 변경사항 저장하는 방법", "https://www.lainyzine.com/ko/article/git-stash-usage-saving-changes-without-commit/"],
+							["Git stash로 자유롭게 branch 이동하기(feat. commit)", "https://velog.io/@anrun/git-stash"],
+						]
+					}
+				},
+				{
 					name: "Branch merger",
 					description: {
 						text: "브랜치를 병합하는 방법에는 Merge와 Rebase가 있다. 브랜치를 분기하여 사용하다가 모든 작업을 마치게 되면 master 브랜치 등으로 다시 병합되어야 한다. 병합되지 않으면 수정사항이 반영되지 않기 때문이다.",
 						links: [
 							["Tistory - Merge와 Rebase의 차이점", "https://unordinarydays.tistory.com/161"],
 							["Merge vs Rebase", "https://brunch.co.kr/@anonymdevoo/7"],
+							["생활코딩 - Branch 병합 시 충돌해결", "https://opentutorials.org/course/2708/15275"],
+							["생활코딩 - merge & conflict의 원리(심화)", "https://opentutorials.org/course/2708/15306"],
 						]
 					},
 					skills: [
