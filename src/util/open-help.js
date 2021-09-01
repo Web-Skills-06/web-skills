@@ -54,12 +54,14 @@ export async function openHelp () {
 
 			<h2>Git Roadmap</h2>
 
-			<img src="assets/foundation/platform/git-roadmap.png">
+			
+			<meta name="viewport" content="target-densitydpi=device-dpi, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
+			<img src="assets/foundation/platform/git-roadmap2.png">
 
 			<h3><a target="_blank" href="https://opentutorials.org/course/3837" rel="noopener" aria-label="Open get involved">생활코딩</a></h3>
-			<p>생활코딩 사이트에서도 git roadmap의 정보를 얻을 수 있다.
-			생활코딩의 roadmap은 거미줄처럼 </p>
-
+			<p>생활코딩 사이트에서도 git roadmap의 정보를 얻을 수 있다.<br>
+			여기의 git roadmap은 거미줄처럼 서로 연결되어 있어 자신이 배웠던 부분과 앞으로 배울 부분을 쉽게 확인할 수 있다. </p>
+			
 
 			
 			<span id="version">v${APP_VERSION}</span>
