@@ -705,7 +705,7 @@ export class App extends LitElement {
 					<div id="toggle-compact" title="${this.compact ? `Disable` : `Enable`} compact layout">
 						<ws-compact-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></ws-compact-switch>
 					</div>
-					<ws-button aria-label="Open help" @click="${this.openHelp}" title="Open help">
+					<ws-button aria-label="Open help" @click="${this.openHelp}" title="참고 사이트">
 						<ws-icon .template="${googleIconTemplate}"></ws-icon>
 					</ws-button>
 					<ws-button aria-label="Share website" @click="${this.share}" title="Open share menu">
