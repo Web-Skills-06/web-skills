@@ -119,7 +119,7 @@ export const fundamentalsCollection = {
 							},
 						},
 
-						{
+						/*{
 							name: "Redmine",
 							description: {
 								text: "Redmine은 오픈 소스 프로그램으로 웹 기반의 프로젝트 관리 와 버그 추적 기능을 제공하는 도구이다. 화면기반의 프로젝트 관리에 도움이 되도록 달력과 간트 차트를 제공하고 일정관리 기능을 제공한다. 또한 레드마인은 통합된 프로젝트관리 기능과 이슈추적, 여러가지 형상 관리 기능을 제공한다.",
@@ -129,7 +129,7 @@ export const fundamentalsCollection = {
 									["Youtube - What is Redmine?", "https://www.youtube.com/watch?v=dSUVgrMWSGQ"]
 								]
 							},
-						},
+						},*/
 					]
 				},
 					]
