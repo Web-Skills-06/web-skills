@@ -1,6 +1,6 @@
 ## 어떻게 기여하나요?
 
-저희 팀이 기여한 방식
+> 저희 팀이 기여한 방식
 
 1. 프로젝트를 깃허브에 fork한다.
 2. fork를 local machine에 clone한다.
@@ -19,7 +19,7 @@
 저희 팀이 기여한 방식을 그대로 따라도 되고, 이 외에도 다양한 기여방식이 존재합니다.
 
 
-다른 기여 방법
+> 다른 기여 방법
 
 * 오타 수정
 * 테스트 추가
@@ -43,26 +43,26 @@
 
 여기서 규칙은
 ```
-1.폴더명은 'assets/collection_name/area_name/skill_name'으로 작성해야한다.
-2.파일명은 'name.svg'로 작성해야한다.
-3.아이콘 파일은 assets안에 적절한 위치에 존재해야한다.
-4.폴더와 파일 이름의 띄어쓰기는 - &는 and로 표헌한다.
+A. 폴더명은 'assets/collection_name/area_name/skill_name'으로 작성해야한다.
+B. 파일명은 'name.svg'로 작성해야한다.
+C. 아이콘 파일은 assets안에 적절한 위치에 존재해야한다.
+D. 폴더와 파일 이름의 띄어쓰기는 - &는 and로 표헌한다.
 ```
 
-1.collection_name은 `src/data`에 생성한 파일명이고,
+A. collection_name은 `src/data`에 생성한 파일명이고,
 area_name은 `src/data`에 생성한 파일의 코드에 자신이 적은 area의 name이고,
 skill_name은 area_name과 동일하게 파일의 코드에 자신이 적은 skill의 name이다.
 
 
-2.'name.svg'의 name은 `src/data`에 생성한 파일 내부의 코드에 자신이 적은 name이다.
+B.'name.svg'의 name은 `src/data`에 생성한 파일 내부의 코드에 자신이 적은 name이다.
 이것과 일치해야 아이콘이 연동될 수 있다.
 
 
-3.아이콘 파일은 'assets/collection_name/area_name/skill_name'폴더에 적절히 위치해야한다.
+C. 아이콘 파일은 'assets/collection_name/area_name/skill_name'폴더에 적절히 위치해야한다.
 적절한 위치에 존재하면 아이콘이 연동될 수 있다.
 
 
-4.`src/data`파일 내부의 코드는 띄어쓰기, &로 표현했다면, 폴더나 파일명의 띄어쓰기는 -, &는 and로 표현한다.
+D. `src/data`파일 내부의 코드는 띄어쓰기, &로 표현했다면, 폴더나 파일명의 띄어쓰기는 -, &는 and로 표현한다.
 
 
 
