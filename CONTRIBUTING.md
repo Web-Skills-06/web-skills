@@ -1,26 +1,76 @@
-## Contributing
+## How to contribute?
 
-You are more than welcome to contribute to `web-skills` in any way you please, including:
+> The way our organization contributes
 
-* Updating documentation.
+1. Fork your project to your Github 
+2. Clone fork to your local machine
+3. Create main branch and develop branch
+4. Create Issue(CONVENTION.md)
+5. Make new branch from develop branch using issue's ticket number 
+6. Change parts
+7. Write commits
+8. Push your branch to where you fork 
+9. Merge your branch -> develop -> main
+
+
+```
+Detailed ways are down below
+```  
+
+You can follow our organization's way, or you can follow other ways.
+
+
+
+> Other ways to contribute
+
 * Fixing spelling and grammar.
 * Adding tests.
-* Fixing issues and suggesting new features.
-* Blogging, tweeting, and creating tutorials linking to `http://andreasbm.github.io/web-skills`.
-* Reaching out to [@andreasmehlsen](https://twitter.com/andreasmehlsen) on Twitter.
-* Submit an issue or a pull request.
-
-If you want to make some changes to `web-skills` you are very welcome to open a PR with the additions. I can't promise that every PR will get merged, but I'll try to respond to everyone.
-
-## Getting Started
-
-You can find all of the data in the `data` folder. Here, you'll find that skills are part of areas and areas are part of collections. I'll encourage you to get familiar with the structure of the data before getting your hands dirty.
-
-In the `assets` folder you can find all of the images for the skills. The path of the images follows a naming convention based on the collection and area the skill is a part of which is `assets/{{ collection_name }}/{{ area_name }}/{{ skill_name }}.svg`. As an example, the image for the skill "Relational Databases" which is a part of the area "Databases" which is a part of the collection "Databases & Servers" is located at `assets/databases-and-servers/databases/relational-databases.svg`. The design with all assets is located in the `design/design.sketch` file. If you can't open the file you can add the new image to the correct path in the `assets` folder instead. I'll make sure to add it to the sketch file.
-
-To serve the website locally you'll need to run `npm run s`. This will spin up a local dev server and open the browser.
-
-If you have any questions feel free to open an issue or send a PM to [@andreasmehlsen](https://twitter.com/andreasmehlsen) on Twitter.
+* Adding annotations
+* Fixing wrong issue name or offering new function
 
 
 
+
+
+## Detailed ways  
+
+
+- Create files 
+create a file  in `src/data` folder and you can input what you want.
+you can use tags like name, text, description, link, area ...
+so if you want to change or add contents, go to `src/data`.
+
+- Create icons
+put `.svg` files in `assets` folder
+then it recognizes automatically.
+
+- System link
+import files that you want on the top of `src/data.js` and export to collections.
+
+
+
+Rules
+```
+A. You should write folder names like 'assets/collection_name/area_name/skill_name' .
+B. You should write file names like 'name.svg' 
+C. Icon files should be located in assets folder
+D. Express blank -> -, & -> and in folder and file
+```
+
+A. collection_name is a file name you created in `src/data`,
+area_name is area's name you write in your file's code of `src/data`,
+skill_name is skill's name you write in your file's code of `src/data` 
+
+
+B. name of 'name.svg' is name you write in your file's code of `src/data`
+icons can be linked if it is correct.
+
+
+C. icon files should be located in 'assets/collection_name/area_name/skill_name' folder 
+it can be linked if it exists in correct location.
+
+
+D. `src/data` file codes express ' ', &, but folder and file express -, and. 
+
+
+If you know another ways to contribute, feel free to notice us!
