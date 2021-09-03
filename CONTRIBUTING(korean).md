@@ -30,15 +30,15 @@
 
 
 ## 자세한 방법
--파일 생성 
+- 파일 생성 
 `src/data` 폴더에 파일을 생성하고, 원하는 내용을 입력할 수 있다.
 주로 name, text, description, link, area 등의 태그를 사용할 수 있다.
 따라서 내용을 변경하거나 추가하고 싶으면 src/data로 가면 된다.
 
--아이콘 생성
+- 아이콘 생성
 `assets` 폴더에 `.svg`파일을 넣으면 자동으로 인식한다.
 
--연동
+- 연동
 `src/data.js`의 상단에 원하는 파일을 import한 후, collections에 export한다.
 
 여기서 규칙은
@@ -53,11 +53,14 @@
 area_name은 `src/data`에 생성한 파일의 코드에 자신이 적은 area의 name이고,
 skill_name은 area_name과 동일하게 파일의 코드에 자신이 적은 skill의 name이다.
 
+
 * 2.'name.svg'의 name은 `src/data`에 생성한 파일 내부의 코드에 자신이 적은 name이다.
 이것과 일치해야 아이콘이 연동될 수 있다.
 
+
 * 3.아이콘 파일은 'assets/collection_name/area_name/skill_name'폴더에 적절히 위치해야한다.
 적절한 위치에 존재하면 아이콘이 연동될 수 있다.
+
 
 * 4.`src/data`파일 내부의 코드는 띄어쓰기, &로 표현했다면, 폴더나 파일명의 띄어쓰기는 -, &는 and로 표현한다.
 
