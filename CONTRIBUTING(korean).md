@@ -14,7 +14,7 @@
 
 ```
 자세한 방법은 밑에 
-```
+```  
 
 저희 팀이 기여한 방식을 그대로 따라도 되고, 이 외에도 다양한 기여방식이 존재합니다.
 
@@ -24,7 +24,7 @@
 * 오타 수정
 * 테스트 추가
 * 주석 달기
-* 잘못된 이슈 이름 고치기 및 새로운 기능 제안
+* 잘못된 이슈 이름 고치기 및 새로운 기능 제안     
 
 
 
@@ -51,18 +51,18 @@ D. 폴더와 파일 이름의 띄어쓰기는 - &는 and로 표헌한다.
 
 A. collection_name은 `src/data`에 생성한 파일명이고,
 area_name은 `src/data`에 생성한 파일의 코드에 자신이 적은 area의 name이고,
-skill_name은 area_name과 동일하게 파일의 코드에 자신이 적은 skill의 name이다.
+skill_name은 area_name과 동일하게 파일의 코드에 자신이 적은 skill의 name이다.  
 
 
-B.'name.svg'의 name은 `src/data`에 생성한 파일 내부의 코드에 자신이 적은 name이다.
+B.'name.svg'의 name은 `src/data`에 생성한 파일 내부의 코드에 자신이 적은 name이다.  
 이것과 일치해야 아이콘이 연동될 수 있다.
 
 
-C. 아이콘 파일은 'assets/collection_name/area_name/skill_name'폴더에 적절히 위치해야한다.
+C. 아이콘 파일은 'assets/collection_name/area_name/skill_name'폴더에 적절히 위치해야한다.  
 적절한 위치에 존재하면 아이콘이 연동될 수 있다.
 
 
-D. `src/data`파일 내부의 코드는 띄어쓰기, &로 표현했다면, 폴더나 파일명의 띄어쓰기는 -, &는 and로 표현한다.
+D. `src/data`파일 내부의 코드는 띄어쓰기, &로 표현했다면, 폴더나 파일명의 띄어쓰기는 -, &는 and로 표현한다.      
 
 
 
