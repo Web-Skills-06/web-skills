@@ -342,151 +342,170 @@ Learn how to conduct an accessibility review to improve the overall experience o
 
 ### What is branch
 
-Learn how to create new HTML tags with Custom Elements.
+Branch는 가지라는 뜻으로, commit들이 나뭇가지처럼 뻗어나간다는 의미이다. 나뭇가지처럼 뻗어나간 branch 사이를 전환해가면서, commit 사이를 가볍게 이동할 수 있는 어떠한 포인터 기능을 한다. 기본적으로 git은 master 브랜치를 만든다. 최근에는 main으로 이름이 바뀌었다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Custom Elements](https://developers.google.com/web/fundamentals/web-components/customelements)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Using Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcss-tricks.com" alt="Logo" /> CSS Tricks - Creating a Custom Element from Scratch](https://css-tricks.com/creating-a-custom-element-from-scratch/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fjavascript.info" alt="Logo" /> Javascript.info - Custom Elements](https://javascript.info/custom-elements)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to" alt="Logo" /> dev.to - An introduction to Custom Elements](https://dev.to/jamesrweb/an-introduction-to-custom-elements-5327)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fitnext.io" alt="Logo" /> itnext - Introduction to Web Components](https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fweb.dev" alt="Logo" /> web.dev - Web Components](https://web.dev/web-components-io-2019/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Wikipedia - Branch](https://ko.wikipedia.org/wiki/%EA%B0%80%EC%A7%80_(%EC%8B%9D%EB%AC%BC%ED%95%99))
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> Git 공식문서 - What is Branch](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcss-tricks.com" alt="Logo" /> 생활코딩 - Branch의 원리(심화)](https://opentutorials.org/course/2708/15303)
 
 ### Why use branch
 
-Learn how to use HTML templates to create flexible templates that can then be used to populate the Shadow DOM.
+Branch는 실제 배포에 사용되는 master 브랜치와 분리하여 또 다른 개발 라인을 만들 수 있다는 점에서 중요하다. 만약 새롭게 만든 브랜치에서 오류가 발생하더라도 실제 master 브랜치는 병합하기 전에는 전혀 영향을 받지 않는다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Using Templates & Slots](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fjavascript.info" alt="Logo" /> Javascript.info - Template Element](https://javascript.info/template-element)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - The Content Template element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> Why branches are important in Git](https://www.toolsqa.com/git/branch-in-git/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fjavascript.info" alt="Logo" /> 유튜브 - 협업에서 왜 브랜치를 나눠서 사용해야 하는가](https://www.youtube.com/watch?v=uoHxdOmGJDk)
 
 
 ### Command
 
 ### Branch
 
-Learn how to encapsulate your CSS using Shadow DOM.
+Git branch는 브랜치를 생성하는 명령어이다. git branch [브랜치 이름]을 통해 생성할 수 있으며, git branch를 통해 브랜치 목록을 확인할 수 있다. 브랜치는 새로운 기능이나 작업을 시작할 때 분기하여 사용한다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Shadow DOM](https://developers.google.com/web/fundamentals/web-components/shadowdom)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Using Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Shadow Tree](https://developer.mozilla.org/en-US/docs/Glossary/Shadow_tree)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcss-tricks.com" alt="Logo" /> CSS Tricks - Encapsulating Style and Structure](https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fitnext.io" alt="Logo" /> itnext - Introduction to Web Components](https://itnext.io/introduction-to-web-components-part-ii-shadow-dom-8d1d8e126332)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmeowni.ca" alt="Logo" /> Monica - Shadow DOM: fast and encapsulated styles](https://meowni.ca/posts/shadow-dom/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Tistory - Branch 생성 및 사용](https://goddaehee.tistory.com/274)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> Tistory - 브랜치 생성 및 목록 확인](https://ifuwanna.tistory.com/283)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> 생활코딩 - Branch 만들기](https://opentutorials.org/course/2708/15260)
 
 #### Checkout
 
-Learn how to style the inside of a shadow tree from outside of that Shadow Tree by using Shadow Parts.
+Git checkout은 브랜치를 전환하거나, 이전 commit으로 이동함으로써 작업중인 파일을 복구하는 기능을 모두 가지고 있다. -b 옵션을 주면 브랜치를 생성함과 동시에 이동할 수 있기도 하다. 이 때문에 혼란이 계속되어 git은 checkout 기능을 Switch와 Restore로 각각 분리하여 명령어를 2개 생성하였다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Fergald - CSS Shadow ::part and ::theme](https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - ::part](https://developer.mozilla.org/en-US/docs/Web/CSS/::part)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org" alt="Logo" /> W3C - CSS Shadow Parts](https://www.w3.org/TR/css-shadow-parts-1/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmeowni.ca" alt="Logo" /> Monica - ::part and ::theme, an explainer](https://meowni.ca/posts/part-theme-explainer/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com" alt="Logo" /> Youtube - CSS Shadow Parts](https://www.youtube.com/watch?v=yVrvOueeb3s)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromestatus.com" alt="Logo" /> Chrome Status - ::part and ::theme](https://www.chromestatus.com/features/5763933658939392)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Git 공식문서 - Git checkout](https://git-scm.com/docs/git-checkout)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> Bitbucket 공식문서 - Git checkout](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org" alt="Logo" /> 코드잇 - Git checkout과 Git reset의 차이점](https://blog.naver.com/codeitofficial/222011693376)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmeowni.ca" alt="Logo" /> 수정사항을 되돌리는 checkout, reset, revert의 차이점](https://postlude.github.io/2019/03/21/git-checkout-reset-revert/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com" alt="Logo" /> Checkout 기능 분리(Switch, Restore)](http://honeymon.io/tech/2019/08/30/git-2.23-release.html)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromestatus.com" alt="Logo" /> 생활코딩 - reset과 checkout의 원리(심화)](https://opentutorials.org/course/2708/15304)
 
 ##### Switch
 
-Learn how to compose Custom Elements by using slots.
+Git switch는 Git 2.23에서부터 브랜치 사이를 이동할 수 있는 명령어로 도입되었다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Falligator.io" alt="Logo" /> Alligator.io - Composing Custom Elements](https://alligator.io/web-components/composing-slots-named-slots/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fjavascript.info" alt="Logo" /> Javascript.info - Slots Composition](https://javascript.info/slots-composition)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - HTML <slot> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcomponent.kitchen" alt="Logo" /> Component.kitchen - A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Falligator.io" alt="Logo" /> Git 공식문서 - Git switch](https://git-scm.com/docs/git-switch)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fjavascript.info" alt="Logo" /> devconnected - How to Switch Branch on Git](https://devconnected.com/how-to-switch-branch-on-git/)
 
 ##### Restore
 
-Get familiar with best practices when it comes to building Web Components.
+Git restore는 Git 2.23에서부터 수정사항을 복구할 수 있는 명령어로 도입되었다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Custom Element Best Practices](https://developers.google.com/web/fundamentals/web-components/best-practices)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.webcomponents.org" alt="Logo" /> Webcomponents.org - Web Components Best Practices](https://www.webcomponents.org/community/articles/web-components-best-practices)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> mateusortiz - Web Components the Right Way](https://github.com/mateusortiz/webcomponents-the-right-way)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to" alt="Logo" /> dev.to - Making Web Components for Different Contexts](https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Bskyvision - Git restore 사용법](https://bskyvision.com/1146)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.webcomponents.org" alt="Logo" /> Git 공식문서 - Git restore](https://git-scm.com/docs/git-restore)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Restore, Clean을 이용하여 로컬 변화 취소하기(feat. reset)](https://velog.io/@younoah/git-restore-clean-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A1%9C%EC%BB%AC-%EB%B3%80%ED%99%94-%EC%B7%A8%EC%86%8C%ED%95%98%EA%B8%B0-feat.-reset)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to" alt="Logo" /> Runebook.dev - Git restore](https://runebook.dev/ko/docs/git/git-restore)
 
 ### Stash
 
-Learn how the Constructible Stylesheets proposal enables reusable styles when using shadow dom.
+아직 현재 브랜치에서 작업이 끝나지 않은 경우는 다른 브랜치로 switch 할 수 없다. 그렇다고 아직 작업이 끝나지 않은 것을 commit할 수도 없는데, 이럴 때 사용하는 것이 stash이다. 수정사항을 임시 저장한 뒤 나중에 복원할 수 있는 명령어라고 이해하면 된다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Constructable Stylesheets](https://developers.google.com/web/updates/2019/02/constructable-stylesheets)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> W3C - Constructable Stylesheet Objects](https://wicg.github.io/construct-stylesheets/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to" alt="Logo" /> dev.to - Why Would Anyone Use Constructible Stylesheets](https://dev.to/westbrook/why-would-anyone-use-constructible-stylesheets-anyways-19ng)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Benjamin Farrel - Adopt a Design System](https://medium.com/swlh/adopt-a-design-system-inside-your-web-components-with-constructable-stylesheets-dd24649261e)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> WICG - Constructable Stylesheet Objects](https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromestatus.com" alt="Logo" /> Chrome Status - Constructible Stylesheets](https://www.chromestatus.com/feature/5394843094220800)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> 생활코딩 - stash](https://opentutorials.org/course/2708/15332)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> Git stash 명령어 사용하기](https://gmlwjd9405.github.io/2018/05/18/git-stash.html)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to" alt="Logo" /> Git 공식문서 - Stashing과 Cleaning](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Stashing%EA%B3%BC-Cleaning)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Bitbuket 공식문서 - Git stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Git stash 사용법: 커밋하지 않고 변경사항 저장하는 방법](https://www.lainyzine.com/ko/article/git-stash-usage-saving-changes-without-commit/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromestatus.com" alt="Logo" /> Git stash로 자유롭게 branch 이동하기(feat. commit)](https://velog.io/@anrun/git-stash)
 
 ### Branch merger
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+브랜치를 병합하는 방법에는 Merge와 Rebase가 있다. 브랜치는 분기하여 사용하다가 모든 작업을 마치게 되면 master 브랜치 등으로 다시 병합되어야 한다. 병합되지 않으면 수정사항이 반영되지 않기 때문이다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromestatus.com" alt="Logo" /> Chrome Status - Form-associated custom elements](https://www.chromestatus.com/features/4708990554472448)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> web-platform-tests - Form Participation](https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Form-associated custom elements](https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fweb.dev" alt="Logo" /> web.dev - More capable form controls](https://web.dev/more-capable-form-controls/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fhtml.spec.whatwg.org" alt="Logo" /> W3C - Creating a form-associated custom element](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - Merge와 Rebase의 차이점](https://unordinarydays.tistory.com/161)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromestatus.com" alt="Logo" /> Merge vs Rebase](https://brunch.co.kr/@anonymdevoo/7)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> 생활코딩 - Branch 병합 시 충돌해결](https://opentutorials.org/course/2708/15275)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> 생활코딩 - merge & conflict의 원리(심화)](https://opentutorials.org/course/2708/15306)
 
 #### Merge
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+Merge 방식으로 병합할 때는 merge commit이 새롭게 생긴다. 병합된 브랜치가 남아있으면서 하나의 브랜치로 합쳐진다고 이해하면 된다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> 생활코딩 - Branch 병합](https://opentutorials.org/course/2708/15262)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Git 공식문서 - 브랜치와 Merge의 기초](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%99%80-Merge-%EC%9D%98-%EA%B8%B0%EC%B4%88)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Bitbucket - Git merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Tistory - 브랜치 병합하기(git branch merge)](https://goddaehee.tistory.com/275)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Tistory - 브랜치 병합하기 + 충돌 제거하기](https://jeong-pro.tistory.com/106)
 
 #### Rebase
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+Rebase 방식으로 병합될 때에는 새로운 commit이 생성되지 않으며, 병합된 브랜치가 사라진다. 병합된 브랜치의 모든 커밋이 새로운 브랜치로 그대로 옮겨온다고 이해하면 된다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git 공식문서 - Rebase 하기](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase-%ED%95%98%EA%B8%B0)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Bitbucket - Git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> FlyingSquirrel - git rebase 하는 방법](https://flyingsquirrel.medium.com/git-rebase-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-ce6816fa859d)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> 왜 Git rebase를 알아야 하는가?](https://suhwan.dev/2018/01/21/Git-Rebase-1/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git rebase를 이해하기](https://junwoo45.github.io/2019-10-23-rebase/)
 
 ##### Rebase --onto
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+Onto는 브랜치가 아니라 임의의 커밋과 커밋 사이의 rebase를 가능하게 하는 옵션이다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git rebase - 커밋 이곳저곳으로 옮기기](https://suhwan.dev/2018/01/27/Git-Rebase-2/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - git rebase 명령어 중 유용한 옵션 --onto](https://foris.tistory.com/135)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git rebase --onto 실제 사례 적용](https://smjeon.dev/git/git-rebase/)
 
 ##### Rebase --interactive
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+Interactive는 대화형으로 명령어를 실행하여 과거의 commit 이력을 수정할 수 있는 옵션이다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> 대화형으로 Git commit history를 수정할 수 있는 interactive 옵션](https://wormwlrm.github.io/2020/09/03/Git-rebase-with-interactive-option.html)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - interactive 옵션으로 불필요한 커밋 이력 제거](https://victorydntmd.tistory.com/279)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git rebase -i 사용하여 명령어 대화형으로 실행](https://jupiny.com/2018/05/07/git-rebase-i-option/)
 
 #### Cherry-pick
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+Cherry-pick는 병합을 진행할 때, 병합될 브랜치에서 모든 커밋이 아니라 내가 원하는 커밋만 가져올 수 있는 명령어이다. 충돌이 발생하거나, 의도치 않은 수정사항이 생겼을 때 사용하면 유용하다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
-
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> git cherry-pick 사용법](https://cselabnotes.com/kr/2021/03/31/56/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> 협업하며 생기는 문제를 cherry-pick으로 해결하기](https://medium.com/react-native-seoul/git-cherry-pick-%EC%82%AC%EC%9A%A9%EB%B2%95-fe1a3346bd27)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git 공식문서 - Git cherry-pick](https://git-scm.com/docs/git-cherry-pick)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Bitbuket 공식문서 - Git cherry-pick](https://www.atlassian.com/git/tutorials/cherry-pick)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> cherry-pick으로 원하는 commit 가져오기](https://itzjamie96.github.io/2020/12/10/git-cherry-pick-basics/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - cherry-pick 필요 상황 및 사용법](https://zakelstorm.tistory.com/29)
 
 ### Strategy
 
 ### Git flow
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+브랜치 전략 중 하나로 거의 표준과 같이 사용되는 방법론이다. 총 5가지의 브랜치 종류를 사용하여 운영된다. master와 develop가 메인 브랜치이며, feature, release, hotfix는 필요에 따라 운영되는 브랜치이다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> 우아한 형제들 - 우리는 Git-flow를 사용하고 있어요](https://techblog.woowahan.com/2553/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - Git Flow 개념 이해하기](https://uxgjs.tistory.com/183)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - 나의 Git Flow 적응기](https://jeong-pro.tistory.com/196)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - git-flow 소개, 설치 및 사용법](https://hbase.tistory.com/60)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - 협업을 위한 Git Flow 설정하기](https://overcome-the-limits.tistory.com/entry/%ED%98%91%EC%97%85-%ED%98%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%9C-Git-Flow-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git Flow와 자주 사용되는 Git 명령어들](https://www.holaxprogramming.com/2018/11/01/git-commands/)
 
 #### Github flow
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+GitHub flow는 Git Flow를 GitHub에서 사용하기 편하게 변형시킨 방법론이다. 또한 자동화의 개념이 들어가 있어, 더 간편한 모델이다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> 간단하고 민첩한 Github-flow](https://hyeon9mak.github.io/git-branch-strategy/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> GitHub Guides - Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> GitHub Docs - GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - Git flow와 GitHub flow의 이해](https://codingtrainee.tistory.com/156)
 
 ##### Gitlab flow
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+Github Flow에서는 브랜치를 너무 편리하게 구성하다보니, 배포, 환경 구성, 릴리즈, 통합에 대한 이슈를 남겨둔 것이 많았다. 따라서 이를 보안하기 위해 GitLab에서 관련 내용을 추가적으로 덧붙여 구성한 방법론이 GitLab Flow이다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Gitlab Docs - Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git flow가 가진 문제점과 솔류션 - GitLab flow](https://insight.infograb.net/blog/2020/09/22/git-flow-problem-and-solution/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git flow, GitHub flow, GitLab flow 차이](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
 
 ### Naming convention
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+새로운 작업을 시작할 때는 항상 브랜치를 분기하고 시작하는 경우가 많다. 따라서 브랜치를 만드는 일이 비일비재하게 이루어지는데, 이름을 짓는 규칙이 없다면 혼란을 가져올 수 있다. 따라서 브랜치 이름을 정하는 규칙이 몇가지가 있다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Git branch & Naming](https://velog.io/@kim-jaemin420/Git-branch-naming)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Coding Sight - Git Branching Naming Convention: Best Practices](https://codingsight.com/git-branching-naming-convention-best-practices/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - Github 기반 브랜치 명명 규칙](https://rumblefish.tistory.com/65)
 
 ### Branch protection
 
-Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
+Master 브랜치는 실제로 배포가 이루어지며, 실제 사용자들이 사용하는 프로그램의 코드들이 저장되어 있다. 따라서 Master 브랜치에는 오류코드나 실수한 부분이 반영되면 안 된다. 따라서 많은 회사들은 Master 브랜치를 protection 전략으로 보호한다.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Form Participation API Explained](https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Tistory - Git Branch Protection Rule](https://2ndprince.tistory.com/49)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Spectral - How to set up Git branch protection rules](https://spectralops.io/blog/how-to-set-up-git-branch-protection-rules/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Github Docs - Managing a Branch Protection Rule](https://docs.github.com/en/github/administering-a-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
+
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
