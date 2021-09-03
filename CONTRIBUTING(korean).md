@@ -51,7 +51,7 @@
 A. 폴더명은 'assets/collection_name/area_name/skill_name'으로 작성해야한다.
 B. 파일명은 'name.svg'로 작성해야한다.
 C. 아이콘 파일은 assets안에 적절한 위치에 존재해야한다.
-D. 폴더와 파일 이름의 띄어쓰기는 - &는 and로 표헌한다.
+D. 폴더와 파일 이름의 띄어쓰기는 - &는 and로 표현한다.
 ```
 
 A. collection_name은 `src/data`에 생성한 파일명이고,
