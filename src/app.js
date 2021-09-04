@@ -13,6 +13,7 @@ import {
 	andreasIconTemplate,
 	coffeeIconTemplate,
 	githubIconTemplate,
+	googleIconTemplate,
 	helpIconTemplate,
 	shareIconTemplate
 } from "./util/icons.js";
@@ -690,7 +691,7 @@ export class App extends LitElement {
 			</div>
 			<header id="header">
 				<div>
-					<a href="https://github.com/andreasbm/web-skills" target="_blank" rel="noopener" aria-label="Open Github" title="Open Github">
+					<a href="https://github.com/Web-Skills-06/web-skills" target="_blank" rel="noopener" aria-label="Open Github" title="Open Github">
 						<ws-icon hoverable .template="${githubIconTemplate}"></ws-icon>
 					</a>
 					${user != null ? html`
@@ -704,8 +705,8 @@ export class App extends LitElement {
 					<div id="toggle-compact" title="${this.compact ? `Disable` : `Enable`} compact layout">
 						<ws-compact-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></ws-compact-switch>
 					</div>
-					<ws-button aria-label="Open help" @click="${this.openHelp}" title="Open help">
-						<ws-icon .template="${helpIconTemplate}"></ws-icon>
+					<ws-button aria-label="Open help" @click="${this.openHelp}" title="참고 사이트">
+						<ws-icon .template="${googleIconTemplate}"></ws-icon>
 					</ws-button>
 					<ws-button aria-label="Share website" @click="${this.share}" title="Open share menu">
 						<ws-icon .template="${shareIconTemplate}"></ws-icon>
