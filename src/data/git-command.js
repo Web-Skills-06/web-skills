@@ -91,7 +91,7 @@ export const gitCommandCollection = {
                                     description: {
                                         text: "로컬에서 작업을 한 뒤에 원격 저장소로 파일을 올리려면 push를 해야합니다. 아래의 링크를 통해 push를 하면 어떤 일이 일어나는지 한번 알아보세요.",
                                         links: [
-                                            ["Opentutorial"]
+                                            ["Opentutorial - git push"]
                                         ]
                                     },
                                 },
