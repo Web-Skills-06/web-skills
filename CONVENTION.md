@@ -119,10 +119,13 @@ commit message convention과 branch 이름 convention, branch 전략에 대한 �
 그 이유는 commit convention을 고른 이유와 마찬가지로 잘 짜여진 규칙을 따르는게 효율적일 것 같았고,
 많은 사람들, 회사에서도 git flow convention을 사용한다고 들었다.
 이 전략을 따름으로써 실무에서 git을 사용하는 것처럼 naming convention에 익숙해지고 싶었다.
+그런데 기존의 git flow convention과는 조금 다르게
+우리 팀은 새로운 기능, 버그 수정보다는 내용 수정이나 문서추가 등의 작업이 주로 이루어져
+git flow에 없지만 세분화하고자 할때는 docs나 composition같은 branch name도 사용했다.
 
 
 ## Branch Structure
-브랜치의 전체적인 구조는 타입과 티켓번호로 이루어져있다.
+브랜치의 전체적인 구조는 타입과 이슈 티켓번호로 이루어져있다.
 
 ```
 type/(#issue number)
@@ -140,3 +143,27 @@ __type__
 - test : 테스트 추가, 테스트 리팩토링(프로덕션 코드 변경X)
 - hotfix : 출시 버전에서 발생한 버그를 수정하는 브랜치, main branch의 오류사항을 수정하는 브랜치
 - composition : 웹페이지 화면의 구성을 변경할 경우(레이아웃, 배경 색 등)
+
+## Caution
+브랜치 생성전에 issue를 생성하고 티켓번호를 얻는다.
+브랜치 제목과 이슈의 티켓번호 사이에는 `/`를 항상 붙인다.
+merge한 branch는 바로바로 삭제해준다.
+우리 팀은 대부분 새로운 기능을 추가하는 것 보다는 기존의 내용을 수정했는데, 그럴때도 feature 브랜치를 생성했다.
+
+## Example
+> 티켓번호는 예시이고 다를 수 있다.
+
+1. 새로운 문서를 추가하는 브랜치
+```
+docs/#9
+```
+
+2. 새로운 기능 혹은 내용을 변경하는 브랜치
+```
+feature/#2
+```
+
+3. 웹페이지 구성을 변경하는 브랜치
+```
+composition/#24
+```
