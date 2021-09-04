@@ -110,3 +110,9 @@ Branches.js 파일을 생성하여 전반적인 branch에 대한 설명으로 �
 프로젝트를 진행하며 생기는 convention을 하나의 문서로 정리한다.   
 commit message convention과 branch 이름 convention, branch 전략에 대한 내용을 .md 파일로 정리한다.   -> 본문
 ```
+
+
+# Branch Naming Convention
+
+## Introduction
+우리 팀은 [Git flow branch convention]을 따르기로 했다.
