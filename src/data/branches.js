@@ -135,7 +135,7 @@ export const webcomponentsCollection = {
 							},
 							skills: [
 								{
-									name: "Rebase --onto",
+									name: "--onto",
 									description: {
 										text: "Onto는 브랜치가 아니라 임의의 커밋과 커밋 사이의 rebase를 가능하게 하는 옵션이다.",
 										links: [
@@ -146,7 +146,7 @@ export const webcomponentsCollection = {
 									}
 								},
 								{
-									name: "Rebase --interactive",
+									name: "--interactive",
 									description: {
 										text: "Interactive는 대화형으로 명령어를 실행하여 과거의 commit 이력을 수정할 수 있는 옵션이다.",
 										links: [
