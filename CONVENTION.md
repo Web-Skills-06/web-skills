@@ -115,4 +115,28 @@ commit message convention과 branch 이름 convention, branch 전략에 대한 �
 # Branch Naming Convention
 
 ## Introduction
-우리 팀은 [Git flow branch convention]을 따르기로 했다.
+우리 팀은 `Git flow branch naming convention`을 따르기로 했다.
+그 이유는 commit convention을 고른 이유와 마찬가지로 잘 짜여진 규칙을 따르는게 효율적일 것 같았고,
+많은 사람들, 회사에서도 git flow convention을 사용한다고 들었다.
+이 전략을 따름으로써 실무에서 git을 사용하는 것처럼 naming convention에 익숙해지고 싶었다.
+
+
+## Branch Structure
+브랜치의 전체적인 구조는 타입과 티켓번호로 이루어져있다.
+
+```
+type/(#issue number)
+```
+
+
+__type__
+- main : 제품으로 출시될 수 있는 브랜치, 배포(Release) 버전의 소스가 들어있다
+- develop : 다음 출시 버전을 개발하는 브랜치, 개발버전의 소스가 들어있다
+- feature : 기능을 개발하는 브랜치
+새로운 기능이 아니라 기존의 내용을 새롭게 추가하거나 수정해도 이 브랜치를 생성한다.
+- docs : 문서를 수정하거나 추가하는 브랜치
+- style : 코드 포맷 변경, 세미 콜론 누락 등 자잘한 코드 수정을 하는 브랜치
+- refactor : 새로운 기능이나 버그 수정없이 현재 구현을 개선한 브랜치
+- test : 테스트 추가, 테스트 리팩토링(프로덕션 코드 변경X)
+- hotfix : 출시 버전에서 발생한 버그를 수정하는 브랜치, main branch의 오류사항을 수정하는 브랜치
+- composition : 웹페이지 화면의 구성을 변경할 경우(레이아웃, 배경 색 등)
