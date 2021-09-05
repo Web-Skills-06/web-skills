@@ -492,10 +492,10 @@ Master 브랜치는 실제로 배포가 이루어지며, 실제 사용자들이 
 ## ➤ Contributors
 	
 
-| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
-|:--------------------------------------------------:|:--------------------------------------------------:|
-| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
-| 🔥                                               |                                                  |
+| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="The-groot" src="https://avatars.githubusercontent.com/u/46774346?v=4" width="100">](https://github.com/the-groot) | [<img alt="Kimgeek" src="https://avatars.githubusercontent.com/u/67546862?v=4" width="100">](https://github.com/Kimgeek) | [<img alt="Ohjiwoo-lab" src="https://avatars.githubusercontent.com/u/74577768?v=4" width="100">](https://github.com/Ohjiwoo-lab) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
+| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [The-groot](https://github.com/the-groot) | [Kimgeek](https://github.com/Kimgeek) | [Ohjiwoo-lab](https://github.com/Ohjiwoo-lab) | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| 🔥                                               |                                                  |                                                  |                                                  |                                                  |
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
