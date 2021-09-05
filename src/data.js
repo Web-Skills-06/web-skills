@@ -1,6 +1,6 @@
 import {fundamentalsCollection} from "./data/foundation.js";
 import {webcomponentsCollection} from "./data/branches.js";
-import {accessibilityCollection} from "./data/accessibility.js";
+import {gitCommandCollection} from "./data/git-command.js";
 import {pwaCollection} from "./data/pwa.js";
 import {architectureCollection} from "./data/architecture-and-paradigmes.js";
 import {buildtoolsCollection} from "./data/build-tools.js";
@@ -17,7 +17,7 @@ import {databasesCollection} from "./data/databases.js";
  */
 export const collections = [
 	fundamentalsCollection,
-	accessibilityCollection,
+	gitCommandCollection,
 	webcomponentsCollection,
 	/*pwaCollection,
 	buildtoolsCollection,
