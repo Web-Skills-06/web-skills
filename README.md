@@ -94,7 +94,10 @@
 
 ### How can I get involved?
 
-만약 이 오픈소스에 기여하고 싶다면, [issues page](https://github.com/Web-Skills-06/web-skills/issues)로 가서 스펠링 수정, 이슈 수정, 새로운 기능 및 내용 제안 등 원하는 방식으로 참여할 수 있습니다. [CONTRIBUTING(korean)](https://github.com/Web-Skills-06/web-skills/blob/main/CONTRIBUTING(korean).md)으로 가면 이 오픈소스에 기여할 수 있는 정확한 방법이 나와있으니 참고해주세요.
+만약 이 오픈소스에 기여하고 싶다면, [issues page](https://github.com/Web-Skills-06/web-skills/issues)로 가서 스펠링 수정, 이슈 수정, 새로운 기능 및 내용 제안 등 원하는 방식으로 참여할 수 있습니다. 다음의 링크를 누르면 이 오픈소스에 기여할 수 있는 정확한 방법이 나와있으니 참고해주세요.   
+- 영어 버전 : [CONTRIBUTING(english)](https://github.com/Web-Skills-06/web-skills/blob/main/CONTRIBUTING.md)
+- 한글 버전 : [CONTRIBUTING(korean)](https://github.com/Web-Skills-06/web-skills/blob/main/CONTRIBUTING(korean).md)   
+우리 팀은 여러분의 기여를 환영합니다😆
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#foundation)
 
@@ -492,9 +495,9 @@ Master 브랜치는 실제로 배포가 이루어지며, 실제 사용자들이 
 ## ➤ Contributors
 	
 
-| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="The-groot" src="https://avatars.githubusercontent.com/u/46774346?v=4" width="100">](https://github.com/the-groot) | [<img alt="Kimgeek" src="https://avatars.githubusercontent.com/u/67546862?v=4" width="100">](https://github.com/Kimgeek) | [<img alt="Ohjiwoo-lab" src="https://avatars.githubusercontent.com/u/74577768?v=4" width="100">](https://github.com/Ohjiwoo-lab) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="The-groot" src="https://avatars.githubusercontent.com/u/46774346?v=4" width="100">](https://github.com/the-groot) | [<img alt="Kimgeek" src="https://avatars.githubusercontent.com/u/67546862?v=4" width="100">](https://github.com/Kimgeek) | [<img alt="Ohjiwoo-lab" src="https://avatars.githubusercontent.com/u/74577768?v=4" width="100">](https://github.com/Ohjiwoo-lab) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/Web-Skills-06/web-skills/blob/main/CONTRIBUTING(korean).md) |
 |:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
-| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [The-groot](https://github.com/the-groot) | [Kimgeek](https://github.com/Kimgeek) | [Ohjiwoo-lab](https://github.com/Ohjiwoo-lab) | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [The-groot](https://github.com/the-groot) | [Kimgeek](https://github.com/Kimgeek) | [Ohjiwoo-lab](https://github.com/Ohjiwoo-lab) | [You?](https://github.com/Web-Skills-06/web-skills/blob/main/CONTRIBUTING(korean).md) |
 | 🔥                                               |                                                  |                                                  |                                                  |                                                  |
 
 
