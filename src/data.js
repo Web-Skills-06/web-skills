@@ -19,7 +19,7 @@ export const collections = [
 	fundamentalsCollection,
 	gitCommandCollection,
 	webcomponentsCollection,
-	pwaCollection,
+	/*pwaCollection,
 	buildtoolsCollection,
 	frameworksAndLibrariesCollection,
 	testingCollection,
@@ -28,5 +28,5 @@ export const collections = [
 	designAndUXCollection,
 	modernCollection,
 	algorithmsCollection,
-	databasesCollection,
+	databasesCollection,*/
 ];
