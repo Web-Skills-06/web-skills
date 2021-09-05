@@ -165,27 +165,37 @@ export const gitCommandCollection = {
                     ]
                 },
                 {
-                    name: "Git-cli-highlevel",
+                    name: "Pull request",
                     description: {
-                        text: "git에서 협업할 때 conflict가 발생하기도 하고 다른 구성원이 내 파일을 수정해야할 때도 있습니다. pull request, conflict 해결 방법은 이전보다 어려울 수 있으나 분명히 가치 있는 배움입니다.",
+                        text: "Pull request는 협업 시 Git에 권한이 없는 타인이 수정사항을 제안하고 그걸 받아들여 내 프로젝트에 병합시킬 때 사용하는 기능입니다. 또한, fork라는 기능을 사용해 다른 사람의 작업물을 가져와서 pull request를 할 수도 있지요. 아래 링크에서 Pull request에 대한 구체적인 사용법을 알아보세요!",
                         links: [
-                            ["Webaim - Forms", "https://webaim.org/techniques/forms/"],
-                            ["Itnext - Form Accessibility Gudie", "https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14"]
+                            ["Opentutorials - Pull request","https://opentutorials.org/course/4587"],
+                            ["Velog - Git fork", "https://velog.io/@ifyouseeksoomi/Git-git-fork"]
                         ]
                     },
-                    skills: [
-                        {
-                            name: "Pull request",
-                            description: {
-                                text: "Pull request는 협업 시 Git에 권한이 없는 타인이 수정사항을 제안하고 그걸 받아들여 내 프로젝트에 병합시킬 때 사용하는 기능입니다. 아래 링크에서 Pull request에 대한 구체적인 사용법을 알아보세요!",
-                                links: [
-                                    ["Opentutorials - Pull request","https://opentutorials.org/course/4587"],
-                                    []
-                                ]
-                            },
-                        }
-                    ]
                 },
+                {
+                    name: "Conflict",
+                    description: {
+                        text: "협업을 할 때 동시에 같은 파일을 동시에 작업해서 merge를 할 때 충돌이 발생하기도 합니다. 충돌은 시스템의 실패라기보단 git이 자동화를 결함없이 수행할 수 있도록 우리에게 주는 메시지라고 보시면 됩니다.",
+                        links: [
+                            ["Opentutorials - Conflict", "https://opentutorials.org/course/3840/23682"],
+                            ["Opentutorials - 3 way merge", "https://opentutorials.org/course/3840/23684"]
+                        ]
+                    }
+                },
+                {
+                    name: "Advanced",
+                    description: {
+                        text: "git을 사용하면서 예상치 못한 bug가 발생했을 때, commit을 reset시켜서 log를 볼 수 없을 때와 같이 예외적인 상황이 항상 발생합니다. 아래의 링크를 통해 심화적인 방법을 익혀봄으로써 다양한 상황에 대처할 수 있는 능력을 길러보세요.",
+                        links: [
+                            ["Tistory - git bisect","https://simsi6.tistory.com/97"],
+                            ["Codelab - git reflog", "https://suwoni-codelab.com/git/2018/04/07/Git-reflog/"],
+                            ["Opentutorials - 강의 2번 reflog 기능 설명", "https://opentutorials.org/module/4032/24533"]
+                        ]
+                    }
+                }
+
             ],
         }
     ]
