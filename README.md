@@ -1,6 +1,6 @@
 <!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">Web Skills</h1>
 <p align="center">
-	Web Skills is a visual overview of useful skills to learn as a web developer. Go to <a href="https://andreasbm.github.io/web-skills" target="_blank" aria-label="Link to Web Skills">https://andreasbm.github.io/web-skills</a> to check out the visual overview or scroll through this readme to get the overview <a href="#-fundamentals" target="_blank" aria-label="Link to list of skills">as a list</a>. If you like the project you are very welcome to <a href="https://github.com/andreasbm/web-skills/stargazers" aria-label="Become stargazer link">become a stargazer 🤩</a>
+	이 Web Skills는 웹 개발자를 위한 로드맵을 제시한 <a href="https://github.com/andreasbm/web-skills" target="_blank" aria-label="Link to Web Skills">오픈소스</a>를 수정, 변경하여 개발자들이 협업하는 데 필수적인 Git에 대한 지식들을 개략적으로 담고있습니다. <a href="https://web-skills-06.github.io/web-skills/" target="_blank" aria-label="Link to Web Skills">https://web-skills-06.github.io/web-skills/</a> 해당 링크를 통해 Git 로드맵을 시각적으로 확인할 수 있고, 이 readme 파일의 스크롤을 내리면 로드맵의 <a href="#-foundation" target="_blank" aria-label="Link to list of skills">list</a>를 확인할 수 있습니다. 프로젝트가 마음에 든다면 언제든 <a href="https://github.com/Web-Skills-06/web-skills/stargazers" aria-label="Become stargazer link">stargazer</a>가 되어주세요🤩.
 </p> 
 <p align="center">
 	<a href="http://andreasbm.github.io/web-skills" target="_blank">
@@ -19,13 +19,7 @@
 * [➤ FAQ](#-faq)
 	* [What is Web Skills?](#what-is-web-skills)
 	* [How did you choose the skills?](#how-did-you-choose-the-skills)
-	* [How can I support you?](#how-can-i-support-you)
 	* [How can I get involved?](#how-can-i-get-involved)
-	* [How can I keep track of what skills I know?](#how-can-i-keep-track-of-what-skills-i-know)
-	* [I am overwhelmed! Help me!](#i-am-overwhelmed-help-me)
-	* [Why haven't you included XYZ Technology?](#why-havent-you-included-xyz-technology)
-	* [What does the "experimental" banner mean?](#what-does-the-experimental-banner-mean)
-	* [How can I get in contact with you?](#how-can-i-get-in-contact-with-you)
 * [➤ Foundation](#-foundation)
 	* [Github Tutorial](#github-tutorial)
 	* [Sign Up](#sign-up)
@@ -87,40 +81,15 @@
 
 ### What is Web Skills?
 
-Web Skills is a visual overview of useful skills to learn as a web developer. It is useful for people who just started learning about web development and for people who have been in the field for years and want to learn new things. As a beginner, I would encourage you not to see this website as the definitive list of what you need to know but as an example of what you can learn and where you can start. The skills are arranged in chronological order based on what learning path I recommend you to take but feel free to jump around freely.
+이 Web Skills는 개발자들이 협업을 할 때에 필수적인 Git을 개략적으로 소개하고 있습니다. Git은 컴퓨터 파일의 변경사항을 추적하여 commit을 통해 변경사항을 저장할 수 있는 버전관리 시스템입니다. 로컬 환경에서 뿐만 아니라 push를 통해 github, gitlab, bitbuket 등 웹페이지 상에 저장할 수 있어, 오프라인 환경에서도 사용할 수 있습니다. 또한 Git은 협업을 하는 데 유용하여 많은 회사들에서 사용되고 있습니다. branch를 통해 기술을 개발하고, 이후 병합하여 변경사항을 반영합니다. 이 때문에 메인이 되는 branch에 오류 등 잘못된 코드가 반영되는 것을 사전에 예방할 수 있습니다. 하지만 Git은 초보자가 배우기에 어렵고, 대학의 컴퓨터학과에서도 다루지 않는 경우가 많습니다. 따라서 Git을 처음 접하는 사람들이 보다 쉽게 배울 수 있도록 로드맵을 제작하였습니다.
 
 ### How did you choose the skills?
-		
-The skills are derived from a combination of 10 years of experience, a bachelor in software engineering and what I personally find to be the most useful to know on a day-to-day basis. Therefore, you'll notice that it's missing a lot of things. For example, I am not a PHP developer - because of this, PHP is not included. If you were a PHP developer, this overview would probably look a lot different.
 
-### How can I support you?
-
-I am spending my spare time building Web Skills for free because I want to help people get into web development. My motivation comes from people finding Web Skills useful, so if you like the project feel free to support me in any way you like! For example, you are more than welcome to become a [stargazer](https://github.com/andreasbm/web-skills/stargazers), share Web Skills with your friends and followers or create blog articles linking to Web Skills. If you want to, it will absolutely make my day if you [support me with a cup of coffee](https://www.buymeacoffee.com/AndreasMehlsen)! <3
+스킬들은 로드맵인 만큼 기초부터 심화까지 해당되는 내용을 담고 있습니다. Git에 대해 공부하고 활용하면서 로드맵에 들어갔으면 하는 내용을 팀원들과 상의를 통해 도출해냈습니다. 처음에는 Git을 설치하고 환경설정하는 법부터 시작하여, 가장 기본적인 Git 명령어 commit, push 등과 branch에 대한 개념, branch를 나누고 다시 병합하는 방법, 브랜치 전략과 main 브랜치를 보호하는 방법까지를 다루고 있습니다. 이 로드맵에 있는 내용은 Git을 처음 접했을 때 알아두면 좋을만한 기초적인 지식들입니다. 따라서 누락된 내용도 많을 것입니다. 만약 추가하고싶은 내용이 있다면 언제든 이 오픈소스에 기여해주세요.
 
 ### How can I get involved?
 
-You are welcome to get involved in any way you like. If you want to, you can go to the [issues page](https://github.com/andreasbm/web-skills/issues) and help me fix the spelling, fix issues or suggest some new features. Any involvement is highly appreciated!
-
-### How can I keep track of what skills I know?
-
-If you scroll to the bottom of the page, you will find a button that says "Sign in with Google". If you click this button and sign in, you will be able to mark skills as completed.
-
-### I am overwhelmed! Help me!
-
-I totally understand if you are a bit overwhelmed by the amount of skills on the page – but I can assure you that this overview includes much, much more than most people will ever need to know. My main goal is to provide a visual overview of web development and make people hungry for learning more. One of the things I absolute love about being a developer is learning new skills. I think it is amazing to be in a field where you can do what you do for a lifetime and still learn something new! People cannot be an expert in every skill on this page so try to find what excites you the most and become really good at that.
-
-### Why haven't you included XYZ Technology?
-
-The skills are based on what I personally find to be the most useful on a day-to-day basis. If you think something really important is missing, you can always suggest it on the [issues page](https://github.com/andreasbm/web-skills/issues).
-
-### What does the "experimental" banner mean?
-
-When a skill is described as experimental, it means that the technology is immature and currently in the process of being added to the Web platform (or considered for addition). Think carefully before you start using experimental technology in any kind of production project. The definition used in Web Skills is based on the excellent definition used on [MDN](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental). You are very welcome to open an issue if you see a skill you believe should be marked as "experimental" or have the banner removed.
-
-### How can I get in contact with you?
-
-Reach out to me on Twitter at [@AndreasMehlsen](https://twitter.com/AndreasMehlsen) or take a look at [my website](https://andreasbm.github.io) if you want to learn more about what other projects I'm working on.
-
+만약 이 오픈소스에 기여하고 싶다면, [issues page](https://github.com/Web-Skills-06/web-skills/issues)로 가서 스펠링 수정, 이슈 수정, 새로운 기능 및 내용 제안 등 원하는 방식으로 참여할 수 있습니다. [CONTRIBUTING(korean)](https://github.com/Web-Skills-06/web-skills/blob/main/CONTRIBUTING(korean).md)으로 가면 이 오픈소스에 기여할 수 있는 정확한 방법이 나와있으니 참고해주세요.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#foundations)
 
