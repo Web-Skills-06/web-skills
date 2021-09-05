@@ -44,6 +44,16 @@ export const gitCommandCollection = {
                     },
                     skills: [
                         {
+                            name: "sourcetree",
+                            description: {
+                                text: "git을 다룰 때 좀 더 시각적으로 편리하게 사용할 수 있도록 도와주는 여러 툴이 존재합니다. Sourcetree 같은 도구는 우리가 시간에 따라 작업이 어떻게 이루어지는지 보는데 많은 도움을 주어요. 아래 링크를 통해 git을 좀 더 편리하게 사용할 수 있는 툴들을 알아보세요.",
+                                links: [
+                                    ["Opentutorials - Sourcetree", "https://opentutorials.org/module/3746"],
+                                    ["Sourcetree - 공식 사이트", "https://www.sourcetreeapp.com/"]
+                                ]
+                            }
+                        },
+                        {
                             name: "Version",
                             description: {
                                 text: "Git을 통해서 프로젝트의 버전 관리를 할 수 있습니다. 아래의 링크는 버전 관리를 실습하는데 이용할 수 있는 강의와 사이트입니다.",
@@ -70,7 +80,9 @@ export const gitCommandCollection = {
                                     description: {
                                         text: "commit은 git 버전 관리의 최소 단위입니다. add를 통해 staging area로 파일을 옮기고 commit으로 파일을 Repository로 옮깁니다.",
                                         links: [
-                                            ["Github - 좋은 커밋 메시지란?", "https://github.com/javascript-tutorial/ko.javascript.info/pull/460"]
+                                            ["Opentutorials - Make a version", "https://opentutorials.org/course/3839/22592"],
+                                            ["Github - 좋은 커밋 메시지란?", "https://github.com/javascript-tutorial/ko.javascript.info/pull/460"],
+                                            ["Udacity git commit message style guide", "https://udacity.github.io/git-styleguide/"]
                                         ]
                                     },
                                 },
@@ -91,16 +103,18 @@ export const gitCommandCollection = {
                                     description: {
                                         text: "로컬에서 작업을 한 뒤에 원격 저장소로 파일을 올리려면 push를 해야합니다. 아래의 링크를 통해 push를 하면 어떤 일이 일어나는지 한번 알아보세요.",
                                         links: [
-                                            ["Opentutorial - git push"]
+                                            ["Opentutorial - git push", "https://opentutorials.org/course/3841/22828"],
+                                            ["Daleseo - git push 사용법 / 팁", "https://www.daleseo.com/git-push/"]
                                         ]
                                     },
                                 },
                                 {
                                     name: "Pull",
                                     description: {
-                                        text: "Learn how to write CSS in such as way that assistive technology better understands it.",
+                                        text: "동시에 협업을 하다 보면 다른 사람이 작업한 파일을 내 컴퓨터로 가져와야 합니다. 이 때 pull 명령어를 이용하면 원격 저장소에서 로컬로 다른 사람이 수정한 작업을 내려받을 수 있습니다.",
                                         links: [
-                                            ["Webaim - CSS", "https://webaim.org/techniques/css/"]
+                                            ["Opentutorials - git pull","https://opentutorials.org/course/3841/22834"],
+                                            ["Opentutorials - git pull vs fetch", "https://opentutorials.org/course/3842/23969"]
                                         ]
                                     }
                                 },
@@ -139,12 +153,21 @@ export const gitCommandCollection = {
                                 },
                             ]
                         },
+                        {
+                            name: "Repository",
+                            description: {
+                                text: "git은 Working directory, Staging area, Repository 이렇게 3개의 구조로 이루어져 있습니다. 이 구조를 머릿속에 그려보면서 git이 어떻게 동작하는지 알아봅시다.",
+                                links: [
+                                    ["Git 공식 문서 - 깃의 기초", "https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EA%B8%B0%EC%B4%88"]
+                                ]
+                            }
+                        },
                     ]
                 },
                 {
                     name: "Git-cli-highlevel",
                     description: {
-                        text: "git",
+                        text: "git에서 협업할 때 conflict가 발생하기도 하고 다른 구성원이 내 파일을 수정해야할 때도 있습니다. pull request, conflict 해결 방법은 이전보다 어려울 수 있으나 분명히 가치 있는 배움입니다.",
                         links: [
                             ["Webaim - Forms", "https://webaim.org/techniques/forms/"],
                             ["Itnext - Form Accessibility Gudie", "https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14"]
@@ -156,7 +179,7 @@ export const gitCommandCollection = {
                             description: {
                                 text: "Pull request는 협업 시 Git에 권한이 없는 타인이 수정사항을 제안하고 그걸 받아들여 내 프로젝트에 병합시킬 때 사용하는 기능입니다. 아래 링크에서 Pull request에 대한 구체적인 사용법을 알아보세요!",
                                 links: [
-                                    ["Opentutorials - https://opentutorials.org/course/4587"],
+                                    ["Opentutorials - Pull request","https://opentutorials.org/course/4587"],
                                     []
                                 ]
                             },
