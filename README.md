@@ -97,6 +97,7 @@
 만약 이 오픈소스에 기여하고 싶다면, [issues page](https://github.com/Web-Skills-06/web-skills/issues)로 가서 스펠링 수정, 이슈 수정, 새로운 기능 및 내용 제안 등 원하는 방식으로 참여할 수 있습니다. 다음의 링크를 누르면 이 오픈소스에 기여할 수 있는 정확한 방법이 나와있으니 참고해주세요.   
 - 영어 버전 : [CONTRIBUTING(english)](https://github.com/Web-Skills-06/web-skills/blob/main/CONTRIBUTING.md)
 - 한글 버전 : [CONTRIBUTING(korean)](https://github.com/Web-Skills-06/web-skills/blob/main/CONTRIBUTING(korean).md)   
+
 우리 팀은 여러분의 기여를 환영합니다😆
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#foundation)
