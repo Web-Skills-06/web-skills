@@ -3,8 +3,8 @@
 	이 Web Skills는 웹 개발자를 위한 로드맵을 제시한 <a href="https://github.com/andreasbm/web-skills" target="_blank" aria-label="Link to Web Skills">오픈소스</a>를 수정, 변경하여 개발자들이 협업하는 데 필수적인 Git에 대한 지식들을 개략적으로 담고있습니다. <a href="https://web-skills-06.github.io/web-skills/" target="_blank" aria-label="Link to Web Skills">https://web-skills-06.github.io/web-skills/</a> 해당 링크를 통해 Git 로드맵을 시각적으로 확인할 수 있고, 이 readme 파일의 스크롤을 내리면 로드맵의 <a href="#-foundation" target="_blank" aria-label="Link to list of skills">list</a>를 확인할 수 있습니다. 프로젝트가 마음에 든다면 언제든 <a href="https://github.com/Web-Skills-06/web-skills/stargazers" aria-label="Become stargazer link">stargazer</a>가 되어주세요🤩.
 </p> 
 <p align="center">
-	<a href="http://andreasbm.github.io/web-skills" target="_blank">
-		<img src="https://raw.githubusercontent.com/andreasbm/web-skills/master/demo.gif" alt="Web Skills Demo" width="800" />
+	<a href="https://web-skills-06.github.io/web-skills/" target="_blank">
+		<img src="https://user-images.githubusercontent.com/74577768/132121071-1d76de4f-1330-4c33-96da-7107046fe8f0.gif" alt="Web Skills Demo" width="800" />
 	</a>
 </p>
 <br />
