@@ -191,7 +191,8 @@ export const gitCommandCollection = {
                         links: [
                             ["Tistory - git bisect","https://simsi6.tistory.com/97"],
                             ["Codelab - git reflog", "https://suwoni-codelab.com/git/2018/04/07/Git-reflog/"],
-                            ["Opentutorials - 강의 2번 reflog 기능 설명", "https://opentutorials.org/module/4032/24533"]
+                            ["Opentutorials - 강의 2번 reflog 기능 설명", "https://opentutorials.org/module/4032/24533"],
+                            ["I'm web - 캐시 비우기 및 강력 새로고침","https://imweb.me/faq?mode=view&category=29&category2=47&idx=71559"]
                         ]
                     }
                 }
